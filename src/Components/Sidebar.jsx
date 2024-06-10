@@ -10,8 +10,8 @@ const Sidebar = () => {
         <section className="flex items-center justify-center mb-6">
           <img src={User} alt="user" className="w-16 h-16 rounded-full" />
           <div className="ml-3">
-            <h1 className="text-white font-medium text-lg">Ashim Kafle</h1>
-            <h4 className="text-white">UI/UX Designer</h4>
+            <h1 className="text-white font-medium text-lg font-poppins">Ashim Kafle</h1>
+            <h4 className="text-white font-poppins">UI/UX Designer</h4>
           </div>
         </section>
         <ul className="font-medium flex flex-col gap-3 px-3">
