@@ -14,11 +14,10 @@ const Progress = () => {
     <section className='flex flex-col  ml-40 mt-7 w-[1002px] h-[581px]'>
 <section className='flex flex-row '>
 <section className='text-white'>
-
-    <img src={Piechart}/>
+    <img src={Piechart} alt='Pie_Chart'/>
 </section>
 <section className='flex flex-col gap-3 '>
-    <section  className="relative h-[283px] w-[256px] ml-12">
+    <section  className="relative h-[283px] w-[256px] ml-12 ">
         <img src={Calender} alt="Calender" className='absolute'/>
     </section>
     <section className='relative h-[283px] w-[256px] ml-12'>
