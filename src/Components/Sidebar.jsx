@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <li>Dashboard</li>
             </section>
           </section>
-          <section className="flex flex-row gap-3 items-center justify-center">
+          <section className="flex flex-row gap-3 items-center justify-center b">
             <section  className="h-[34px] w-[34px]">
                 <img src={EmployessIcon} alt="icon"/>
             </section>
