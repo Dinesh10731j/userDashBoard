@@ -18,7 +18,7 @@ const Sidebar = () => {
           {Navdata.map((item, index) => (
             <li
               key={index}
-              className={`flex items-center gap-3 p-2 text-white transition-all delay-150`}
+              className={`flex items-center gap-3 p-2 text-white transition-all delay-150 hover:bg-[#9B9B9B]`}
               
             >
               <img src={item.icon} alt={item.text} className="w-6 h-7" />
