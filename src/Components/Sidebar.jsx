@@ -4,10 +4,6 @@ import { Navdata } from "../Navdata/data";
 
 
 const Sidebar = () => {
-    const [color,setColor] = useState(false);
-    const handleColor=()=>{
-        setColor(true);
-    }
   return (
     <aside className="h-screen fixed top-0 left-0 w-[230px] bg-[#2C2D2D] py-3">
       <nav className="flex flex-col">
@@ -23,8 +19,6 @@ const Sidebar = () => {
             <li
               key={index}
               className={`flex items-center gap-3 p-2 text-white transition-all delay-150`}
-             
-
               
             >
               <img src={item.icon} alt={item.text} className="w-6 h-7" />
