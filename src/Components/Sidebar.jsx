@@ -1,5 +1,9 @@
 import React from "react";
 import User from "../assets/user.png";
+import dashboardIcon from "../assets/image 2.png";
+import EmployessIcon from "../assets/image 3.png";
+import EngagementRateIcon from "../assets/image 4.png";
+import TaskIcon from "../assets/image 6.png"
 
 const Sidebar = () => {
   return (
@@ -15,22 +19,41 @@ const Sidebar = () => {
                 <h4 className="text-white font-poppins ">UI/UX Designer</h4>
             </section>
           </section>
-          <ul className="font-poppins font-medium text-white text-center px-2 py-3 ">
+          <ul className="font-poppins font-medium text-white text-center px-2 py-3 flex flex-col gap-2 ">
+          <section className="flex flex-row gap-3  justify-center">
+            <section  className="h-[34px] w-[34px]">
+                <img src={dashboardIcon} alt="icon"/>
+            </section>
+            <section>
+                <li>Dashboard</li>
+            </section>
+          </section>
+          <section className="flex flex-row gap-3 items-center justify-center">
+            <section  className="h-[34px] w-[34px]">
+                <img src={EmployessIcon} alt="icon"/>
+            </section>
+            <section>
+                <li>Employees</li>
+            </section>
+          </section>
+          <section className="flex flex-row gap-3  justify-center">
+            <section className="h-[34px] w-[34px]">
+                <img src={EngagementRateIcon} alt="icon"/>
+            </section>
+            <section>
+                <li>Engagement Rate </li>
+            </section>
+          </section>
+          <section className="flex flex-row gap-3  justify-center">
+            <section className="h-[34px] w-[34px]">
+                <img src={TaskIcon} alt="icon"/>
+            </section>
+            <section>
+            <li>Task</li>
+            </section>
+          </section>
           
-          
-          <li className=" px-3 py-2 ml-3 text-[#B070D0]">
-              Dashboard
-              </li>
-       
-          
-            <li className=" px-3 py-2 ml-3">
-             Employees
-            </li>
-            <li className=" px-3 py-2 ml-3">
-              Engagement Rate
-            </li>
-            <li className=" px-3 py-2 ml-3">Tasks</li>
-          </ul>
+         </ul>
         </nav>
       </aside>
     </>
