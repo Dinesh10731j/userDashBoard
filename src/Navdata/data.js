@@ -5,7 +5,12 @@ export const Navdata = [
 },
 {
     "text":"Employees",
-    "icon":'../src/assets/image 3.png'
+    "icon":'../src/assets/image 3.png',
+    subItems: [
+      { text: "Employees", },
+      { text: "Employee Calender",},{
+        "text":"Employee Request"
+      }]
 },
 {
     "text":"Engagement Rate",
