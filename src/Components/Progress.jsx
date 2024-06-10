@@ -7,11 +7,11 @@ const Progress = () => {
   return (
    <>
    <section className='h-[982px] w-[1007px] flex flex-col justify-center items-center gap-6 '>
-   <section className='h-[263px] w-[1002px] ml-40 relative'>
+   <section className='h-[263px] w-[1002px] ml-40 relative z-6'>
     <img src={Bargraph} alt='Bargraph' className='absolute'/>
 
     </section>
-    <section className='flex flex-col  ml-40 mt-7 w-[1002px] h-[581px]'>
+    <section className='flex flex-col  ml-40 mt-7 w-[1002px] h-[581px] z-5'>
 <section className='flex flex-row '>
 <section className='text-white'>
     <img src={Piechart} alt='Pie_Chart'/>
