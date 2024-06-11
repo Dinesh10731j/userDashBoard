@@ -58,7 +58,7 @@ const Sidebar = () => {
                   <span>{item.text}</span>
                 </div>
                 {item.subItems && (
-                  <span className="text-md bg-black h-5 w-5 rounded-full text-center">
+                  <span className="text-md">
                     {openIndices.includes(index) ? '△' : '▽'}
                   </span>
                 )}
