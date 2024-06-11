@@ -7,7 +7,6 @@ const Sidebar = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   useEffect(() => {
-   
     const defaultIndex = Navdata.findIndex((item) => item.text === "Dashboard");
     setSelectedIndex(defaultIndex);
   }, []);
